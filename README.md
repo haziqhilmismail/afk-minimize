@@ -6,9 +6,17 @@ When a notification brings the client to the front (your inventory is full, or y
 
 ![The client jumps to the front, one click starts the countdown, and the client minimizes](docs/demo-take4.gif)
 
+## Why it is not on the Plugin Hub
+
+I submitted AFK Minimize to the RuneLite Plugin Hub in [runelite/plugin-hub#18590](https://github.com/runelite/plugin-hub/pull/18590). The RuneLite team closed the pull request with this reason:
+
+> We are no longer accepting plugins that manipulate the client's window, including, but not limited to, minimizing or changing which window is currently focused
+
+Minimizing the client is the main job of this plugin, so no small change makes it fit this rule. The plugin sends no input to the game and adds no menu entries. The rule is about the client window, not about the game.
+
 ## Install (sideload)
 
-AFK Minimize is not on the RuneLite Plugin Hub. The Plugin Hub does not accept plugins that minimize the client or change which window has focus. You can still load it into your own RuneLite as a sideloaded plugin. A sideloaded plugin is a plugin jar that you put in a folder yourself. RuneLite loads it at startup, next to the Plugin Hub plugins.
+You can load AFK Minimize into your own RuneLite as a sideloaded plugin. A sideloaded plugin is a plugin jar that you put in a folder yourself. RuneLite loads it at startup, next to the Plugin Hub plugins.
 
 1. Install a JDK, version 11 or later.
 2. Clone this repo and build the plugin:
