@@ -8,7 +8,7 @@ When a notification brings the client to the front (your inventory is full, or y
 
 ## Why I made it
 
-I wanted to AFK mine at work, sorok-sorok (Malay for "on the quiet"). The game stays hidden behind my work until my inventory is full. Then it pops up, I click once, and a second later it is gone again. Nobody walking past my desk sees RuneScape for more than a few seconds.
+I wanted to AFK mine at work without anyone noticing. The game stays hidden behind my work until my inventory is full. Then it pops up, I click once, and a second later it is gone again. Nobody walking past my desk sees RuneScape for more than a few seconds.
 
 ## Setup
 
