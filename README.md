@@ -6,6 +6,28 @@ When a notification brings the client to the front (your inventory is full, or y
 
 ![The client jumps to the front, one click starts the countdown, and the client minimizes](docs/demo-take4.gif)
 
+## Install
+
+AFK Minimize is not on the RuneLite Plugin Hub. The Plugin Hub does not accept plugins that minimize the client or change which window has focus. You can still load it into your own RuneLite as a sideloaded plugin.
+
+1. Install a JDK, version 11 or later.
+2. Clone this repo and build the plugin:
+
+   ```
+   git clone https://github.com/haziqhilmismail/afk-minimize.git
+   cd afk-minimize
+   gradlew jar
+   ```
+
+   On macOS or Linux, use `./gradlew jar`. The build makes `build/libs/afk-minimize.jar`.
+3. Copy `afk-minimize.jar` to the `sideloaded-plugins` folder in your RuneLite folder. Create the folder if it does not exist.
+   - Windows: `%USERPROFILE%\.runelite\sideloaded-plugins`
+   - macOS and Linux: `~/.runelite/sideloaded-plugins`
+4. Open **RuneLite (configure)**. Add `-ea` to **JVM arguments** and `--developer-mode` to **Client arguments**, then click **Save**. RuneLite only loads sideloaded plugins in developer mode.
+5. Start RuneLite as usual. **AFK Minimize** is now in the plugin list.
+
+If you update the plugin, build the jar again and replace the old one.
+
 ## Setup
 
 1. Turn on **AFK Minimize**.
