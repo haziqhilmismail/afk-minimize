@@ -21,10 +21,9 @@ The plugin only arms when an alert fires while you are in another window. If you
 
 ## Keep the client open
 
-You can stop the countdown in two ways:
+To stop the countdown, click the timer box at the top of the screen. The click does not go to the game, so your character does not walk.
 
-- Hold **Ctrl** while you click.
-- Click the timer box at the top of the screen. The click does not go to the game, so your character does not walk.
+You can also set a **Keep open key** in the settings. Hold that key while you click to stop the countdown. It has no default, because Alt, Ctrl, and Shift already do things in RuneLite and the game.
 
 The plugin stays armed, so your next normal click starts the countdown again.
 
@@ -32,7 +31,7 @@ The plugin stays armed, so your next normal click starts the countdown again.
 
 | Setting | Default | What it does |
 | --- | --- | --- |
-| Keep open key | Ctrl | Hold this key while you click to stop the countdown |
+| Keep open key | Not set | Hold this key while you click to stop the countdown |
 | Minimize delay | 1000 ms | Time from your last click until the client minimizes |
 
 To move the timer, hold **Alt** and drag it.

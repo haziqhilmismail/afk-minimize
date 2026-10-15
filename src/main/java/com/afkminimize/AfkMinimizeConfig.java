@@ -16,7 +16,7 @@ public interface AfkMinimizeConfig extends Config
 	)
 	default Keybind keepOpenKey()
 	{
-		return Keybind.CTRL;
+		return Keybind.NOT_SET;
 	}
 
 	@Units(Units.MILLISECONDS)
