@@ -4,7 +4,7 @@ A RuneLite plugin for AFK skilling while you do something else on your PC.
 
 When a notification brings the client to the front (your inventory is full, or you stopped mining), you click what you need in the game. A second after your last click, the client minimizes itself and you are back in your other window.
 
-![The client jumps to the front, one click starts the countdown, and the client minimizes](docs/demo-zoom.gif)
+![The client jumps to the front, one click starts the countdown, and the client minimizes](docs/demo-take4.gif)
 
 ## Why I made it
 
