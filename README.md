@@ -6,6 +6,10 @@ When a notification brings the client to the front (your inventory is full, or y
 
 ![The client jumps to the front, one click starts the countdown, and the client minimizes](docs/demo.gif)
 
+## Why I made it
+
+I wanted to AFK mine at work, sorok-sorok (Malay for "on the quiet"). The game stays hidden behind my work until my inventory is full. Then it pops up, I click once, and a second later it is gone again. Nobody walking past my desk sees RuneScape for more than a few seconds.
+
 ## Setup
 
 1. Turn on **AFK Minimize**.
