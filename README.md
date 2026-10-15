@@ -1,5 +1,8 @@
 # AFK Minimize
 
+> [!IMPORTANT]
+> **AFK Minimize is not on the RuneLite Plugin Hub.** RuneLite no longer accepts plugins that minimize the client or change which window has focus. To use it, [sideload it](#install-sideload). See [why it is not on the Plugin Hub](#why-it-is-not-on-the-plugin-hub).
+
 A RuneLite plugin for AFK skilling while you do something else on your PC.
 
 When a notification brings the client to the front (your inventory is full, or you stopped mining), you click what you need in the game. A second after your last click, the client minimizes itself and you are back in your other window.
